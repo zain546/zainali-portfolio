@@ -19,18 +19,20 @@ export const About = () => {
       transition={{ delay: 0.175 }}
     >
       <SectionHeading heading="About Me" />
-      <div className="-mt-5 max-w-2xl text-center leading-7">
-        <p className="mb-4">
-          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I&apos;m always
-          looking to learn new technologies.
+      <div className="mt-5 max-w-2xl text-center leading-7">
+        <p className="mb-4 text-justify">
+          Hi! I&apos;m a Full Stack Developer with a strong focus on the MERN
+          stack and Next.js. I began my programming journey in 2021 right after
+          completing my intermediate studies. With a growing passion for
+          technology, I pursued a Bachelor&apos;s degree in Computer Science to
+          strengthen my foundation and take my skills to the next level.
+          Currently, I&apos;m working on a full-stack project for a company
+          called called Xenara AI, where I&apos;m gaining hands-on experience
+          building real-world applications. I enjoy working on both the
+          front-end and back-end, turning ideas into functional, user-friendly
+          products. products. Looking ahead, my goals are to become a Lead
+          Software Software Engineer and eventually launch my own tech company.
+          I’m always eager collaborate, and create meaningful digital solutions.
         </p>
         <p>
           I&apos;m open to Job opportunities where I can contribute, learn and

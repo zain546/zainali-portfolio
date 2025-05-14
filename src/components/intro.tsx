@@ -40,11 +40,11 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Hi I&#39;m a{' '}
+        Hi I&#39;m{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Frontend
+          Zain
         </span>{' '}
-        developer creating modern web apps.
+        <span>👋</span>
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -52,10 +52,12 @@ export const Intro = () => {
         transition={{
           delay: 0.1,
         }}
-        className="text-muted-foreground max-w-xl"
+        className="text-muted-foreground max-w-xl text-justify"
       >
-        A frontend developer based in the Poland. I&#39;m passionate about
-        building modern web applications using Next.js, React, and Tailwind CSS.
+        I’m a passionate Full Stack Engineer specializing in the MERN stack and
+        Next.js. I enjoy building responsive web applications that solve
+        real-world problems with clean code and smooth user experiences — from
+        front-end design to back-end logic.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

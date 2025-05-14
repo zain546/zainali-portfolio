@@ -1,40 +1,26 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
-import { motion } from 'framer-motion';
+import { SectionHeading } from './section-heading';
 
 import { skillsData } from '@/lib/data';
 
-const fadeInAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.05 * index,
-    },
-  }),
-};
-
 export const Skills = () => {
   return (
-    <div className="mt-10 flex w-full flex-wrap justify-between gap-10 px-5 sm:justify-center sm:px-0 md:mt-14 lg:justify-between">
-      {skillsData.map(({ icon }, index) => (
-        <motion.div
-          key={index}
-          variants={fadeInAnimationVariants}
-          initial="initial"
-          whileInView="animate"
-          viewport={{
-            once: true,
-          }}
-          custom={index}
-        >
-          {icon}
-        </motion.div>
-      ))}
-    </div>
+    <section
+      aria-labelledby="skills"
+      id="skills"
+      className="my-14 flex w-full scroll-mt-28 flex-col items-center md:mb-10 "
+    >
+      <SectionHeading
+        heading="My Skills"
+        content="Tools & Technologies I Work With. From foundational languages to advanced frameworks and deployment tools."
+      />
+      <div className="mt-10 flex w-screen flex-wrap gap-2 px-5 sm:justify-center sm:px-0 md:mt-14 md:w-full">
+        {skillsData.map((skill, index) => (
+          <img key={index} src={skill.src} alt={skill.alt} />
+        ))}
+      </div>
+    </section>
   );
 };
