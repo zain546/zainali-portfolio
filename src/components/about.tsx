@@ -21,18 +21,21 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4 text-justify">
-          Hi! I&apos;m a Full Stack Developer with a strong focus on the MERN
-          stack and Next.js. I began my programming journey in 2021 right after
-          completing my intermediate studies. With a growing passion for
-          technology, I pursued a Bachelor&apos;s degree in Computer Science to
+          Hi! I&apos;m a Full Stack Developer with a strong focus on the{' '}
+          <strong>MERN </strong>
+          stack and <strong>Next.js</strong>. I began my programming journey in
+          2021 right after completing my intermediate studies. With a growing
+          passion for technology, I pursued a 🎓{' '}
+          <strong>Bachelor&apos;s</strong> degree in Computer Science to
           strengthen my foundation and take my skills to the next level.
           Currently, I&apos;m working on a full-stack project for a company
-          called called Xenara AI, where I&apos;m gaining hands-on experience
-          building real-world applications. I enjoy working on both the
-          front-end and back-end, turning ideas into functional, user-friendly
-          products. products. Looking ahead, my goals are to become a Lead
-          Software Software Engineer and eventually launch my own tech company.
-          I’m always eager collaborate, and create meaningful digital solutions.
+          called called <strong>Xenara AI</strong>, where I&apos;m gaining
+          hands-on experience building real-world applications. I enjoy working
+          on both the front-end and back-end, turning ideas into functional,
+          user-friendly products. products. Looking ahead, my goals are to
+          become a Lead Software Software Engineer and eventually launch my own
+          tech company. I’m always eager collaborate, and create meaningful
+          digital solutions.
         </p>
         <p>
           I&apos;m open to Job opportunities where I can contribute, learn and

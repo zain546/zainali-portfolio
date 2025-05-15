@@ -1,8 +1,10 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { GlobeIcon } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+
+import { Icons } from './icons';
 
 import { projectsData } from '@/lib/data';
 
@@ -13,50 +15,45 @@ type TProps = {
   index: number;
 };
 
-const fadeInAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.1 * index,
-    },
-  }),
-};
-
-export const Project = ({ project, index }: TProps) => {
+export const Project = ({ project }: TProps) => {
   const { image, title, description, technologies, links } = project;
 
   return (
-    <motion.div
-      variants={fadeInAnimationVariants}
-      initial="initial"
-      whileInView="animate"
-      viewport={{
-        once: true,
-      }}
-      custom={index}
-      className="flex flex-col rounded border p-5 md:w-1/2"
-    >
-      <Link
-        href={links.github}
-        aria-label={title}
-        target="_blank"
-        className="overflow-hidden rounded"
-      >
-        <Image
-          src={image}
-          alt={title}
-          height={390}
-          width={600}
-          className="rounded transition-transform hover:scale-105"
-        />
-      </Link>
-      <h3 className="mt-3 text-xl font-medium">{title}</h3>
-      <p className="text-muted-foreground mb-2 mt-1">{description}</p>
+    <div className="flex w-[46%] flex-col rounded border p-5">
+      <Image
+        src={image}
+        alt={title}
+        height={390}
+        width={600}
+        className="rounded transition-transform"
+      />
+      <div className="flex justify-between">
+        <h3 className="mt-3 text-xl font-medium">{title}</h3>
+        <div className="flex gap-2">
+          <Link
+            href={links.github}
+            aria-label={title}
+            target="_blank"
+            className="text-muted-foreground mt-3 flex items-center rounded-full border border-black bg-zinc-800 px-3 py-1 text-sm text-white
+             dark:border-white dark:bg-zinc-200 dark:text-black"
+          >
+            <Icons.githubOutline className="mr-2 size-4" />
+            Source
+          </Link>
+          <Link
+            href={links.preview}
+            aria-label={title}
+            target="_blank"
+            className=" mt-3 flex items-center rounded-full border border-black bg-zinc-800 px-3
+             py-1 text-sm text-white
+             dark:border-white dark:bg-zinc-200 dark:text-black "
+          >
+            <GlobeIcon className="mr-2 size-4" />
+            Live Site
+          </Link>
+        </div>
+      </div>
+      <p className="text-muted-foreground mb-2 mt-3">{description}</p>
       <div className="flex flex-wrap gap-2">
         {technologies.map((tech) => (
           <span className="rounded-full border px-3 py-1 text-sm" key={tech}>
@@ -64,6 +61,6 @@ export const Project = ({ project, index }: TProps) => {
           </span>
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 };

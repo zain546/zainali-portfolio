@@ -23,55 +23,104 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/images/project-2.webp',
-    title: 'Next-starter',
+    image: '/images/image.png',
+    title: 'Issue Tracker',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+      'Built an Issue Tracker web application using Next.js 15 — designed to help teams efficiently manage, track, and organize issues within projects.This app includes features like issue creation, dynamic filtering, authentication, and real-time error monitoring using modern full-stack technologies.',
+    technologies: [
+      'Next.js',
+      'Tailwind',
+      'TypeScript',
+      'Radix-ui',
+      'Next-auth',
+      'Prisma',
+      'mysql',
+    ],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: 'https://issue-tracker-app-henna-nine.vercel.app/',
+      github: 'https://github.com/zain546/issue-tracker.git',
     },
   },
   {
-    image: '/images/project-1.webp',
-    title: 'SocialHub',
+    image: '/images/gamehub.png',
+    title: 'GameHub 🎮 ',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'Built a responsive video game discovery platform using React 18, TypeScript, and the RAWG API. Features include dynamic search, genre/platform filtering, sorting, and dark mode. Implemented reusable components and custom hooks for clean architecture and scalability.',
+    technologies: [
+      'React.js',
+      'TypeScript',
+      'Zod',
+      'Chakra UI',
+      'Tailwind',
+      'React Query',
+    ],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview: 'https://game-hub-gamma-six-90.vercel.app/',
+      github: 'https://github.com/zain546/game-hub.git',
+    },
+  },
+  {
+    image: '/images/blog.png',
+    title: 'My Blog',
+    description:
+      'Check out my personal blog website.This is a modern blog platform built with Next.js, TypeScript, and Tailwind CSS. It features dynamic content rendering, responsive design, and advanced styling techniques, offering a seamless user experience for tech tutorials, interview preparation, and industry insights.',
+    technologies: [
+      'Next.js',
+      'TypeScript',
+      'Radix UI',
+      'Framer Motion',
+      'Zod',
+      'Tailwind',
+    ],
+    links: {
+      preview: 'https://my-blog-loy4.vercel.app/',
+      github: 'https://github.com/zain546/my-blog.git',
+    },
+  },
+  {
+    image: '/images/xenara.png',
+    title: 'Xenara AI',
+    description:
+      'At Xenara AI, I’m working as a Full Stack Developer where I’ve contributed to building and maintaining a modern, scalable web platform. My work spans across the MERN stack, Next.js, and NestJS, handling both client-side and server-side logic.',
+    technologies: ['Next.js', 'TypeScript', 'Material UI', 'Zod'],
+    links: {
+      preview: 'https://xenara.ai',
+      github: 'https://github.com/Xenara-AI/xenara-website.git',
     },
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    title: 'Frontend Developer Intern',
+    company: 'Netbreeds International Software Comapany',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
+      'Front-End Web Development Intern | Played a key role in enhancing user interfaces through proficient use of HTML, CSS, and JavaScript. Collaborated with the team to deliver visually appealing and responsive web solutions, gaining valuable insights into modern front-end development practices.',
+    period: '2023 - 2024',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'React.js'],
   },
   {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
+    title: 'Web Developer Intern',
+    company: 'OpenVoiceHub',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
-    period: '2024',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
+      'Worked as a Full Stack Developer building a modern web application using the MERN stack (MongoDB, Express.js, React, Node.js). I contributed to both front-end and back-end development, focusing on scalable architecture, clean code practices, and responsive user interfaces. Collaborated with the team to implement features, optimize performance, and deliver a seamless user experience.',
+    period: 'APR 2024 - AUG 2024',
+    technologies: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Tailwind',
+    ],
   },
   {
-    title: 'Frontend developer',
-    company: 'Freelancing, remote',
+    title: 'Full Stack Developer',
+    company: 'Xenara AI',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - present',
-    technologies: ['Next.js', 'TypeScript', 'Sanity', 'Tailwind'],
+      'At Xenara AI, I’m working as a Full Stack Developer where I’ve contributed to building and maintaining a modern, scalable web platform. My work spans across the MERN stack, Next.js, and NestJS, handling both client-side and server-side logic. I’ve also utilized Material UI to design clean, responsive, and accessible user interfaces. I collaborate closely with the team to develop new features, ensure performance optimization, and deliver seamless user experiences.',
+    period: 'SEPT 2024 - present',
+    technologies: ['Next.js', 'TypeScript', 'Material UI', 'Nest.js'],
   },
 ] as const;
 

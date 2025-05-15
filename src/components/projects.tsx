@@ -1,7 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
-
 import { Project } from '@/components/project';
 import { SectionHeading } from '@/components/section-heading';
 import { useSectionInView } from '@/hooks/use-section-in-view';
@@ -12,25 +10,11 @@ export const Projects = () => {
 
   return (
     <section ref={ref} id="projects" className="my-10 scroll-mt-28 md:mb-20">
-      <motion.div
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        transition={{
-          delay: 0.175,
-        }}
-        viewport={{
-          once: true,
-        }}
-      >
-        <SectionHeading
-          heading="My Projects"
-          content="Projects I worked on. Each of them containing its own case study."
-        />
-      </motion.div>
-      <div className="flex flex-col gap-7 md:flex-row">
+      <SectionHeading
+        heading="My Projects"
+        content="Projects I worked on. Each of them containing its own case study."
+      />
+      <div className="w-vw flex flex-col flex-wrap gap-7 md:flex-row">
         {projectsData.map((project, index) => (
           <Project key={project.title} project={project} index={index} />
         ))}
