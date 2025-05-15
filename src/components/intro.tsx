@@ -1,12 +1,12 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import Link from 'next/link';
 
 import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
+import { ColourfulText } from '@/components/ui/colourful-text';
 import { useSectionInView } from '@/hooks/use-section-in-view';
-
 export const Intro = () => {
   const { ref } = useSectionInView('Home');
 
@@ -42,7 +42,14 @@ export const Intro = () => {
       >
         Hi I&#39;m{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Zain
+          {/* <motion.img
+            src="https://www.ensembletech.in/wp-content/uploads/2018/07/portfolio-background.jpg"
+            className="pointer-events-none absolute inset-0 size-full object-cover [mask-image:radial-gradient(circle,transparent,black_80%)]"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.5 }}
+            transition={{ duration: 1 }}
+          /> */}
+          <ColourfulText text="Zain" />
         </span>{' '}
         <span>👋</span>
       </motion.h1>
