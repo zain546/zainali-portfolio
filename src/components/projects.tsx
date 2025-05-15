@@ -14,7 +14,7 @@ export const Projects = () => {
         heading="My Projects"
         content="Projects I worked on. Each of them containing its own case study."
       />
-      <div className="w-vw flex flex-col flex-wrap gap-7 md:flex-row">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {projectsData.map((project, index) => (
           <Project key={project.title} project={project} index={index} />
         ))}

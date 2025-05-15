@@ -10,6 +10,7 @@ import { sendEmailAction } from '@/actions/send-email';
 import { Button } from '@/components/button';
 import { Icons } from '@/components/icons';
 import { SectionHeading } from '@/components/section-heading';
+import { FlipWords } from '@/components/ui/flip-words';
 import { useSectionInView } from '@/hooks/use-section-in-view';
 import { formSchema, TFormSchema } from '@/lib/form-schema';
 import { cn } from '@/lib/utils';
@@ -34,6 +35,7 @@ export const Contact = () => {
     toast.success(data);
     reset();
   };
+  const words = ['better', 'cute', 'beautiful', 'modern'];
 
   return (
     <motion.section
@@ -53,6 +55,13 @@ export const Contact = () => {
         once: true,
       }}
     >
+      <div className="mb-10 flex items-center justify-center px-4 sm:mb-20">
+        <div className="mx-auto text-3xl font-normal text-neutral-600 sm:text-4xl dark:text-neutral-400">
+          Build
+          <FlipWords words={words} />
+          websites with me.
+        </div>
+      </div>
       <SectionHeading
         heading="Get In Touch"
         content={
@@ -71,6 +80,7 @@ export const Contact = () => {
           </>
         }
       />
+
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="flex flex-col items-center gap-5"
