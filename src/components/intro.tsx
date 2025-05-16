@@ -61,10 +61,17 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl text-justify"
       >
-        I’m a passionate Full Stack Engineer specializing in the MERN stack and
-        Next.js. I enjoy building responsive web applications that solve
-        real-world problems with clean code and smooth user experiences — from
-        front-end design to back-end logic.
+        I’m a passionate{' '}
+        <span className="relative font-medium">
+          <span className="relative z-10">Full Stack Engineer</span>
+          <span
+            aria-hidden="true"
+            className="absolute -inset-1 z-0 rounded bg-gradient-to-r from-indigo-500/20 via-sky-500/20 to-emerald-500/20 blur-sm"
+          ></span>
+        </span>{' '}
+        specializing in the MERN stack and Next.js. I enjoy building responsive
+        web applications that solve real-world problems with clean code and
+        smooth user experiences — from front-end design to back-end logic.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -80,13 +87,13 @@ export const Intro = () => {
           </Link>
         </Button>
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/michalskolak.pdf" download>
+          <a href="/michalskolak.pdf">
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/zainali546/"
             aria-label="Linkedin"
             target="_blank"
           >
@@ -95,7 +102,7 @@ export const Intro = () => {
         </Button>
         <Button variant="outline" size="icon" asChild>
           <Link
-            href="https://github.com/Skolaczk"
+            href="https://github.com/zain546"
             aria-label="Github"
             target="_blank"
           >

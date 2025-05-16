@@ -92,11 +92,11 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Frontend Developer Intern',
+    title: 'Frontend Developer',
     company: 'Netbreeds International Software Comapany',
     description:
-      'Front-End Web Development Intern | Played a key role in enhancing user interfaces through proficient use of HTML, CSS, and JavaScript. Collaborated with the team to deliver visually appealing and responsive web solutions, gaining valuable insights into modern front-end development practices.',
-    period: '2023 - 2024',
+      'Front-End Web Development Intern | Played a key role in enhancing user interfaces through proficient use of HTML, CSS, and JavaScript and React. Collaborated with the team to deliver visually appealing and responsive web solutions, gaining valuable insights into modern front-end development practices.',
+    period: '2023',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'React.js'],
   },
   {
@@ -104,7 +104,7 @@ export const experiencesData = [
     company: 'OpenVoiceHub',
     description:
       'Worked as a Full Stack Developer building a modern web application using the MERN stack (MongoDB, Express.js, React, Node.js). I contributed to both front-end and back-end development, focusing on scalable architecture, clean code practices, and responsive user interfaces. Collaborated with the team to implement features, optimize performance, and deliver a seamless user experience.',
-    period: 'APR 2024 - AUG 2024',
+    period: '2024',
     technologies: [
       'React',
       'TypeScript',
@@ -119,7 +119,7 @@ export const experiencesData = [
     company: 'Xenara AI',
     description:
       'At Xenara AI, I’m working as a Full Stack Developer where I’ve contributed to building and maintaining a modern, scalable web platform. My work spans across the MERN stack, Next.js, and NestJS, handling both client-side and server-side logic. I’ve also utilized Material UI to design clean, responsive, and accessible user interfaces. I collaborate closely with the team to develop new features, ensure performance optimization, and deliver seamless user experiences.',
-    period: 'SEPT 2024 - present',
+    period: 'Present',
     technologies: ['Next.js', 'TypeScript', 'Material UI', 'Nest.js'],
   },
 ] as const;
