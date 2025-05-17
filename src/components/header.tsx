@@ -98,7 +98,7 @@ export const Header = () => {
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
-        className="dark:text-muted-foreground flex items-center justify-end space-x-2  bg-white text-xs text-black sm:text-sm dark:bg-black"
+        className="dark:text-muted-foreground flex items-center justify-end space-x-2  bg-white text-xs text-black sm:text-sm dark:bg-black hover:dark:text-white"
       >
         <a
           href="https://drive.google.com/file/d/1BKA2Mx4W4mHdcN0doFVofCGRunEQSn0B/view?usp=drive_link"
