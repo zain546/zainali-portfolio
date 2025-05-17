@@ -35,7 +35,7 @@ export const Contact = () => {
     toast.success(data);
     reset();
   };
-  const words = ['better', 'cute', 'beautiful', 'modern'];
+  const words = ['better', 'fast', 'sleek', 'cute', 'beautiful', 'modern'];
 
   return (
     <motion.section
@@ -57,9 +57,9 @@ export const Contact = () => {
     >
       <div className="mb-10 flex items-center justify-center px-4 sm:mb-20">
         <div className="mx-auto text-3xl font-normal text-neutral-600 sm:text-4xl dark:text-neutral-400">
-          Build
+          Let&apos;s build
           <FlipWords words={words} />
-          websites with me.
+          websites together.
         </div>
       </div>
       <SectionHeading

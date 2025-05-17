@@ -81,34 +81,33 @@ export const Intro = () => {
         }}
         className="flex flex-row gap-2"
       >
-        <Button asChild size="lg">
-          <Link href="#contact">
-            Get in touch <Icons.arrowRight className="ml-2 size-4" />
-          </Link>
-        </Button>
-        <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
-          <a href="/michalskolak.pdf">
-            Download CV <Icons.download className="ml-2 size-4" />
-          </a>
-        </Button>
-        <Button variant="outline" size="icon" asChild>
-          <Link
-            href="https://www.linkedin.com/in/zainali546/"
-            aria-label="Linkedin"
-            target="_blank"
-          >
-            <Icons.linkedin className="size-5" />
-          </Link>
-        </Button>
-        <Button variant="outline" size="icon" asChild>
-          <Link
-            href="https://github.com/zain546"
-            aria-label="Github"
-            target="_blank"
-          >
-            <Icons.github className="size-5" />
-          </Link>
-        </Button>
+        <div className="flex items-center gap-4">
+          <Button asChild size="default" variant="default">
+            <Link href="#contact">
+              Get in touch <Icons.arrowRight className="ml-2 size-4" />
+            </Link>
+          </Button>
+          <div className="flex gap-2">
+            <Button variant="outline" size="icon" asChild>
+              <Link
+                href="https://www.linkedin.com/in/zainali546/"
+                aria-label="Linkedin"
+                target="_blank"
+              >
+                <Icons.linkedin className="size-5" />
+              </Link>
+            </Button>
+            <Button variant="outline" size="icon" asChild>
+              <Link
+                href="https://github.com/zain546"
+                aria-label="Github"
+                target="_blank"
+              >
+                <Icons.github className="size-5" />
+              </Link>
+            </Button>
+          </div>
+        </div>
       </motion.div>
     </section>
   );
