@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 
 import { PropsWithChildren } from 'react';
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
 
 import { ActiveSectionProvider } from '@/components/active-section-provider';
@@ -9,7 +10,6 @@ import { Toaster } from '@/components/toaster';
 import { fonts } from '@/lib/fonts';
 import { siteConfig } from '@/lib/site-config';
 import { cn } from '@/lib/utils';
-
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
@@ -36,6 +36,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
         <ThemeProvider attribute="class">
           <ActiveSectionProvider>
             {children}
+            <Analytics />
             <Toaster position="bottom-left" />
           </ActiveSectionProvider>
         </ThemeProvider>
