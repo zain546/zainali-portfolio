@@ -136,7 +136,7 @@ export const Contact = () => {
             </p>
           )}
         </div>
-        <Button size="lg">
+        <Button type="submit" size="lg">
           Submit <Icons.arrowRight className="ml-2 size-4" />
         </Button>
       </form>
