@@ -223,14 +223,14 @@ export const skillsData = [
   },
 
   // DevOps and Deployment
-  {
-    alt: 'Kubernetes',
-    src: 'https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white',
-  },
-  {
-    alt: 'AWS',
-    src: 'https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white',
-  },
+  // {
+  //   alt: 'Kubernetes',
+  //   src: 'https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white',
+  // },
+  // {
+  //   alt: 'AWS',
+  //   src: 'https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white',
+  // },
 
   // Tools
   {
@@ -260,6 +260,10 @@ export const skillsData = [
   {
     alt: 'Postman',
     src: 'https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white',
+  },
+  {
+    alt: 'Jira',
+    src: 'https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white',
   },
   {
     alt: 'Slack',
