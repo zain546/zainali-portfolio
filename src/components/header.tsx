@@ -95,19 +95,24 @@ export const Header = () => {
           </ul>
         </nav>
       </motion.header>
-      <HoverBorderGradient
-        containerClassName="rounded-full"
-        as="button"
-        className="dark:text-muted-foreground flex items-center justify-end space-x-2  bg-white text-xs text-black sm:text-sm dark:bg-black hover:dark:text-white"
+      <motion.header
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
       >
-        <a
-          href="https://drive.google.com/file/d/1BKA2Mx4W4mHdcN0doFVofCGRunEQSn0B/view?usp=drive_link"
-          target="_blank"
-          rel="noreferrer noopener"
+        <HoverBorderGradient
+          containerClassName="rounded-full"
+          as="button"
+          className="dark:text-muted-foreground flex items-center justify-end space-x-2  bg-white text-xs text-black sm:text-sm dark:bg-black hover:dark:text-white"
         >
-          📄 <span className="hidden sm:inline-block">My </span> Resume
-        </a>
-      </HoverBorderGradient>
+          <a
+            href="https://drive.google.com/file/d/1BKA2Mx4W4mHdcN0doFVofCGRunEQSn0B/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            📄 <span className="hidden sm:inline-block">My </span> Resume
+          </a>
+        </HoverBorderGradient>
+      </motion.header>
     </div>
   );
 };
