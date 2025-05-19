@@ -14,15 +14,14 @@ export const sendEmailAction = async ({ email, message }: TFormSchema) => {
       to: 'zainali546official@gmail.com',
       subject: 'Message from portfolio contact form',
       replyTo: email,
-      text: `email: ${email} \nmessage: ${message}`,
+      text: `You've received a message from ${email}\n\n${message}`,
     });
 
     return {
       data: 'Email sent successfully!',
     };
-  } catch {
-    return {
-      error: `Something went wrong!`,
-    };
+  } catch (error) {
+    console.error('Resend error:', error);
+    return { error: 'Something went wrong!' };
   }
 };
