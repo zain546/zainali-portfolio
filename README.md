@@ -3,7 +3,7 @@ My personal portfolio website built using Next.js, Tailwind CSS and Framer-motio
 
 ## 📍 Live 
 
-Link to the live version: [https://michalskolak.vercel.app](https://michalskolak.vercel.app)
+Link to the live version: [https://zainali-portfolio-six.vercel.app/](https://zainali-portfolio-six.vercel.app/)
 
 ## 💾 Installation 
 Download the project to your computer and install needed packages with command:
@@ -33,4 +33,4 @@ and open http://localhost:3000 to see this app.
 - React-hook-form
 - Resend
 
-If you encounter a problem, write to this e-mail address: [skolakmichal1@gmail.com](mailto:skolakmichal1@gmail.com)
+If you encounter a problem, write to this e-mail address: [zainali546official@gmail.com](mailto:zainali546official@gmail.com)
