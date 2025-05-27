@@ -69,9 +69,10 @@ export const Intro = () => {
             className="absolute -inset-1 z-0 rounded bg-gradient-to-r from-indigo-500/20 via-sky-500/20 to-emerald-500/20 blur-sm"
           ></span>
         </span>{' '}
-        specializing in the MERN stack and Next.js. I enjoy building responsive
-        web applications that solve real-world problems with clean code and
-        smooth user experiences — from front-end design to back-end logic.
+        have over a 3 years of experience specializing in the MERN stack and
+        Next.js. I enjoy building responsive web applications that solve
+        real-world problems with clean code and smooth user experiences — from
+        front-end design to back-end logic.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

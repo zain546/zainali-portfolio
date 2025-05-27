@@ -100,10 +100,10 @@ export const experiencesData = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Tailwind', 'React.js'],
   },
   {
-    title: 'Web Developer Intern',
+    title: 'Lead MERN Stack Developer',
     company: 'OpenVoiceHub',
     description:
-      'Worked as a Full Stack Developer building a modern web application using the MERN stack (MongoDB, Express.js, React, Node.js). I contributed to both front-end and back-end development, focusing on scalable architecture, clean code practices, and responsive user interfaces. Collaborated with the team to implement features, optimize performance, and deliver a seamless user experience.',
+      'Worked as a lead Full Stack Developer in OpenVoiceHub , building a modern web application using the MERN stack (MongoDB, Express.js, React, Node.js). I contributed to both front-end and back-end development, focusing on scalable architecture, clean code practices, and responsive user interfaces. Collaborated with the team to implement features, optimize performance, and deliver a seamless user experience.',
     period: '2024',
     technologies: [
       'React',
