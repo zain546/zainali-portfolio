@@ -241,32 +241,32 @@ export const skillsData = [
     alt: 'GitHub Actions',
     src: 'https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white',
   },
-  {
-    alt: 'npm',
-    src: 'https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white',
-  },
-  {
-    alt: 'Yarn',
-    src: 'https://img.shields.io/badge/-Yarn-2C8EBB?style=flat-square&logo=Yarn&logoColor=white',
-  },
-  {
-    alt: 'Prettier',
-    src: 'https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white',
-  },
-  {
-    alt: 'ESLint',
-    src: 'https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white',
-  },
-  {
-    alt: 'Postman',
-    src: 'https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white',
-  },
-  {
-    alt: 'Jira',
-    src: 'https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white',
-  },
-  {
-    alt: 'Slack',
-    src: 'https://img.shields.io/badge/-Slack-4A154B?style=flat-square&logo=Slack&logoColor=white',
-  },
+  // {
+  //   alt: 'npm',
+  //   src: 'https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white',
+  // },
+  // {
+  //   alt: 'Yarn',
+  //   src: 'https://img.shields.io/badge/-Yarn-2C8EBB?style=flat-square&logo=Yarn&logoColor=white',
+  // },
+  // {
+  //   alt: 'Prettier',
+  //   src: 'https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white',
+  // },
+  // {
+  //   alt: 'ESLint',
+  //   src: 'https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white',
+  // },
+  // {
+  //   alt: 'Postman',
+  //   src: 'https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white',
+  // },
+  // {
+  //   alt: 'Jira',
+  //   src: 'https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white',
+  // },
+  // {
+  //   alt: 'Slack',
+  //   src: 'https://img.shields.io/badge/-Slack-4A154B?style=flat-square&logo=Slack&logoColor=white',
+  // },
 ];
