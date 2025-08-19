@@ -88,6 +88,28 @@ export const projectsData = [
       github: 'https://github.com/Xenara-AI/xenara-website.git',
     },
   },
+  {
+    image: '/images/quickai.png',
+    title: 'QuickAI',
+    description:
+      'QuickAi is a full-stack AI-powered web application that provides various AI tools (image generation, background removal, article writing, resume review, etc.) with a modern React frontend and Node.js backend. The app features user authentication via Clerk, a dashboard for tracking AI creations, and a subscription-based model with premium features, all built using Vite, Tailwind CSS, and deployed on Vercel.',
+    technologies: [
+      'React.js',
+      'JavaScript',
+      'Tailwind CSS',
+      'Vite',
+      'Node.js',
+      'Express.js',
+      'PSQL',
+      'Clerk',
+      'Axios',
+      'Vercel',
+    ],
+    links: {
+      preview: 'https://client-quick-ai.vercel.app/',
+      github: 'https://github.com/zain546/quick.ai',
+    },
+  },
 ] as const;
 
 export const experiencesData = [
