@@ -23,6 +23,33 @@ export const links = [
 
 export const projectsData = [
   {
+    image: '/images/sellphone.png',
+    title: 'SellPhone',
+    description:
+      'SellPhone - Marketplace & Classifieds Platform. Built a full-stack mobile marketplace and classifieds platform using Next.js 16, React 19, TypeScript, and NestJS 11 with PostgreSQL and Redis. Features include ad posting with OTP verification, browser-based GPS city detection, interactive map search, real-time push notifications via Firebase/BullMQ, and Stripe-powered premium ad promotions. Implemented Google Gemini AI for automated ad moderation and an intelligent administrative assistant.',
+    technologies: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'Nest.js',
+      'Node.js',
+      'PostgreSQL',
+      'TypeORM',
+      'Redis',
+      'BullMQ',
+      'Gemini AI',
+      'Firebase',
+      'Stripe',
+      'Docker',
+      'Sentry',
+    ],
+    links: {
+      preview: 'https://sellphone-nextjs-webapp.vercel.app',
+      github: 'https://github.com/abdbutt/sellphone-nextjs-webapp.git',
+    },
+  },
+  {
     image: '/images/image.png',
     title: 'Issue Tracker',
     description:
