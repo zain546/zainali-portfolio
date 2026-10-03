@@ -29,6 +29,6 @@ export const siteConfig = {
     'Programming',
     'Pakistan',
   ],
-  url: env.SITE_URL || 'https://example.com',
+  url: env.SITE_URL || 'https://zainali-portfolio-six.vercel.app',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
