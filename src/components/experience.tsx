@@ -36,7 +36,7 @@ export const Experience = () => {
               <div>
                 <h3 className="text-xl font-medium">{exp.title}</h3>
               </div>
-              <p className="text-sm text-neutral-700 dark:text-neutral-300">
+              <p className="whitespace-pre-line text-sm leading-relaxed text-neutral-700 dark:text-neutral-300">
                 {exp.description}
               </p>
               <div className="flex flex-wrap gap-2">

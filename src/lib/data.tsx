@@ -141,8 +141,23 @@ export const experiencesData = [
     company: 'Xenara AI',
     description:
       'At Xenara AI, I’m working as a Full Stack Developer where I’ve contributed to building and maintaining a modern, scalable web platform. My work spans across the MERN stack, Next.js, and NestJS, handling both client-side and server-side logic. I’ve also utilized Material UI to design clean, responsive, and accessible user interfaces. I collaborate closely with the team to develop new features, ensure performance optimization, and deliver seamless user experiences.',
-    period: 'Present',
+    period: '2025',
     technologies: ['Next.js', 'TypeScript', 'Material UI', 'Nest.js'],
+  },
+  {
+    title: 'Full Stack Engineer',
+    company: 'Avento Solutions',
+    description:
+      'Architected and developed a full-stack e-commerce and classifieds marketplace across three codebases: a Next.js 16 consumer web app, Next.js admin portal, and NestJS 11 backend, supporting buying, selling, and vehicle inspection workflows.\n\nEngineered high-performance web applications using Next.js 16 (App Router), React 19, and TypeScript, leveraging SSR, parallel API requests, and ISR to reduce page load times by 35% and improve Core Web Vitals.\n\nOptimized frontend state management and data fetching using TanStack React Query v5 and nuqs, reducing redundant network requests, minimizing unnecessary re-renders, and implementing optimistic UI updates across search and filtering workflows.',
+    period: 'Present',
+    technologies: [
+      'Next.js 16',
+      'React 19',
+      'TypeScript',
+      'NestJS 11',
+      'TanStack Query',
+      'nuqs',
+    ],
   },
 ] as const;
 
