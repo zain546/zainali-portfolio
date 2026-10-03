@@ -3,7 +3,7 @@ module.exports = {
     process.env.SITE_URL ||
     (process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : 'https://zainali-portfolio-six.vercel.app'),
+      : 'https://zain-ali-portfolio-git-main-zain546s-projects.vercel.app'),
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   robotsTxtOptions: {

@@ -29,6 +29,8 @@ export const siteConfig = {
     'Programming',
     'Pakistan',
   ],
-  url: env.SITE_URL || 'https://zainali-portfolio-six.vercel.app',
+  url:
+    env.SITE_URL ||
+    'https://zain-ali-portfolio-git-main-zain546s-projects.vercel.app',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
